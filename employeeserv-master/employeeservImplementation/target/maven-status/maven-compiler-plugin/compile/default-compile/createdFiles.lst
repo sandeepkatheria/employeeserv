@@ -1,0 +1,10 @@
+com\paypal\bfs\test\employeeserv\mapper\RequestResponseMapper.class
+com\paypal\bfs\test\employeeserv\repository\EmployeeResourceRepo.class
+com\paypal\bfs\test\employeeserv\validator\EmployeeValidator.class
+com\paypal\bfs\test\employeeserv\EmployeeservApplication.class
+com\paypal\bfs\test\employeeserv\service\EmployeeResourceService.class
+com\paypal\bfs\test\employeeserv\exception\EmployeeServApiError.class
+com\paypal\bfs\test\employeeserv\exception\EmployeeResourceExceptionHandler.class
+com\paypal\bfs\test\employeeserv\domain\AddressEntity.class
+com\paypal\bfs\test\employeeserv\impl\EmployeeResourceImpl.class
+com\paypal\bfs\test\employeeserv\domain\EmployeeEntity.class

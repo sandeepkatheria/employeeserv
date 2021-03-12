@@ -1,0 +1,50 @@
+{
+  "title": "Employee address",
+  "description": "address",
+  "type": "object",
+  "properties": {
+    "address_line1": {
+      "description": "address line1",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "address_line2": {
+      "description": "address line2",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "city": {
+      "description": "address city",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "state": {
+      "description": "address state",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "country": {
+      "description": "address country",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "zip_code": {
+      "description": "address zip_code",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 10
+    }
+  },
+  "required": [
+    "address_line1",
+    "city",
+    "state",
+    "country",
+    "zip_code"
+  ]
+}
